@@ -79,7 +79,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/pdf/2507.21837.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -88,20 +88,9 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/tomfluff/VeasyGuide" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -112,7 +101,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2507.21837" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -120,7 +109,17 @@
                   <span>arXiv</span>
                 </a>
               </span>
-            </div>
+
+              <!-- Try it Link -->
+              <span class="link-block ">
+                <a href="https://veasyguide.github.io/app" target="_blank"
+                class="external-link button is-normal is-rounded is-primary has-text-black">
+                <span class="icon">
+                  <i class="fas fa-play"></i>
+                </span>
+                <span class="has-text-black">Try it</span>
+              </a>
+            </span>
           </div>
         </div>
       </div>
@@ -133,13 +132,14 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
+      <video id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <source src="static/videos/video_figure.mp4"
         type="video/mp4">
+        <track kind="subtitles" src="static/videos/video_figure.vtt" srclang="en" label="English" default>
       </video>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Video figure for VeasyGuide. VeasyGuide is an assistive tool that aids low vision learners to gain visual access to pointing, marking, and sketching actions in educational presentation videos. Our study reveals it is also beneficial for sighted learners, enhancing their focus and engagement with the content.
       </h2>
     </div>
   </div>
@@ -167,36 +167,30 @@
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Results</h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/success+speed.png" alt="detection success and duration results for low-vision participants"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          <strong>Left:</strong> Visual search success rates of LV participants (L1L8) in the localization task under baseline and VeasyGuide conditions. <strong>Right:</strong> Visual search times of LV participants (L1-L8) in the localization task under baseline and VeasyGuide conditions.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/load.jpg" alt="Task load and cognitive effort results for low-vision participants"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Results of subjective evaluation of LV participants comparing the baseline to VeasyGuide. Blue tones indicate positive evaluation and red tones indicate negative evaluation. We indicate statistical significance (𝑝 < 0.05) using *.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/full.jpg" alt="Full low-vision user results for detection success and duration."/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+         Detailed breakdown of results for success rates and detection speeds from the localization task for both LV and sighted participants in the baseline and VeasyGuide conditions. “Total,” is the total number of activities for that condition.
        </h2>
      </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
   </div>
 </div>
 </div>
@@ -204,55 +198,31 @@
 <!-- End image carousel -->
 
 
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
 <!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Using VeasyGuide</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
             <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
+            <source src="static/videos/general_example.mp4"
             type="video/mp4">
           </video>
+          <h2 class="subtitle has-text-centered">
+            Using VeasyGuide to follow a presentation video and zoom into instructor actions.
+          </h2>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
             <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
+            <source src="static/videos/personalization_example.mp4"
             type="video/mp4">
           </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+          <h2 class="subtitle has-text-centered">
+            Personalizing VeasyGuide for individual visual needs.
+          </h2>
         </div>
       </div>
     </div>
@@ -262,29 +232,19 @@
 
 
 
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>
+@inproceedings{key,
+  title = {VeasyGuide: Personalized Visual Guidance for Low-vision Learners on Instructor Actions in Presentation Videos},
+  booktitle = {Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '25)},
+  address = {Denver, CO, USA},
+  year = {2025},
+  doi = {10.1145/3663547.3746372}
+}
+      </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->

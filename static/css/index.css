@@ -112,6 +112,7 @@ body {
 
 .results-carousel {
   overflow: hidden;
+  min-height: 400px;
 }
 
 .results-carousel .item {
@@ -119,6 +120,22 @@ body {
   overflow: hidden;
   padding: 20px;
   font-size: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.results-carousel .item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.results-carousel .item .subtitle {
+  font-size: 1rem;
+  text-align: center;
 }
 
 .results-carousel video {
@@ -132,6 +149,5 @@ body {
 .eql-cntrb { 
   font-size: smaller;
 }
-
 
 

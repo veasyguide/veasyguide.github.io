@@ -8,10 +8,11 @@ If you find this useful for your research, please use the following.
 
 ```bibtex
 @inproceedings{key,
-  title = {Title of the Paper},
-  author = {Author1, Firstname and Author2, Firstname and Author3, Firstname},
-  booktitle = {Proceedings of the Conference},
-  year = {2023}
+  title = {VeasyGuide: Personalized Visual Guidance for Low-vision Learners on Instructor Actions in Presentation Videos},
+  booktitle = {Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '25)},
+  address = {Denver, CO, USA},
+  year = {2025},
+  doi = {10.1145/3663547.3746372}
 }
 ```
 
