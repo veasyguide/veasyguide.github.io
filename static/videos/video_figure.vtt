@@ -71,7 +71,7 @@ It has two main parts.
 
 16
 00:00:58.808 --> 00:01:01.895
-Activity recognition and activity. Visualization.
+Activity recognition and activity visualization.
 
 17
 00:01:02.103 --> 00:01:06.232
@@ -112,7 +112,7 @@ Or creating images from text.
 
 25
 00:01:33.426 --> 00:01:36.179
-[NARRATION] We describe the image and then
+We describe the image and then
 
 26
 00:01:36.179 --> 00:01:38.348
@@ -120,7 +120,7 @@ we get the output. Something like this.
 
 27
 00:01:38.348 --> 00:01:42.769
-VeasyGuide augments highlights over activities
+[NARRATION] VeasyGuide augments highlights over activities
 with the ability to zoom in,
 
 28
@@ -147,15 +147,15 @@ needs of low vision learners
 
 33
 00:02:05.375 --> 00:02:08.419
-and different visual styles of presentation videos
+and different visual styles of presentation videos.
 
 34
 00:02:10.421 --> 00:02:13.049
-to explore the impact on low vision learners.
+To explore the impact on low vision learners,
 
 35
 00:02:13.049 --> 00:02:18.763
-We evaluated VeasyGuide with eight low vision
+we evaluated VeasyGuide with eight low vision
 participants over two tasks and two conditions.
 
 36
